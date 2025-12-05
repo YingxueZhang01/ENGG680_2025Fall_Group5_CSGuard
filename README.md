@@ -7,3 +7,23 @@ Vision-Based Real-Time Safety Gear Monitoring and Alert System for Construction 
 *
 *
 *
+
+## Development Timeline & Migration Note
+This repository contains the **final artifacts** of our project. The active development and training processes were conducted entirely within **Google Colab** and **Google Drive** due to the need for GPU resources (Tesla T4). 
+
+As a result, the commit history in this repository reflects the **migration date** rather than the actual development timeline. The source code, trained weights (`best.pt`), and logs were exported from our Colab environment and uploaded here for submission and archiving purposes.
+
+## Project Overview
+This project implements an edge-optimized YOLOv8 object detection model designed to monitor Personal Protective Equipment (PPE) compliance on construction sites in real-time.
+
+### Key Features
+* **Model:** YOLOv8 Nano (optimized for edge devices).
+* **Dataset:** Roboflow Construction Site Safety (>5,600 images).
+* **Performance:** Achieved mAP@50 of 0.801.
+* **Software:** Python backend with a custom-designed frontend interface.
+
+## Repository Structure
+* `/models`: Contains the trained `best.pt` weights.
+* `/notebooks`: The original Google Colab `.ipynb` source code.
+* `/results`: Confusion matrices, validation batches, and loss curves.
+* `/src`: Application source code (Backend logic & Frontend assets).
