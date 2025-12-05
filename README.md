@@ -23,6 +23,6 @@ This project implements an edge-optimized YOLOv8 object detection model designed
 * **Software:** Python backend with a custom-designed frontend interface.
 
 ## Repository Structure
-* `/models`: Contains the trained `best.pt` weights, the original Google Colab `.ipynb` source code and all results .
+* `/models`: The original Google Colab `.ipynb` source code and results containing the trained `best.pt` weights and confusion matrix.
 * `/docs`: Presentation PPT and Speech scripts.
 * `/src`: Application source code (Backend logic & Frontend assets).
