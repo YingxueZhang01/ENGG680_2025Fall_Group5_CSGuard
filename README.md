@@ -4,7 +4,7 @@ Vision-Based Real-Time Safety Gear Monitoring and Alert System for Construction 
 Vision-Based Real-Time Safety Gear Monitoring and Alert System for Construction Sites
 **Presented by Group 5:**
 * Yingxue Zhang (Hyde)
-* Jingfeng Sun
+* Jingfeng Sun 
 *
 *
 
