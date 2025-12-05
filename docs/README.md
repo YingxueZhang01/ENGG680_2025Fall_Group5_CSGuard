@@ -6,11 +6,11 @@ This directory serves as the archive for our group's final presentation material
 
 ### 1. `ENGG680_Presentation.pdf`
 The complete slides presented in class.
-* **Pages 1-2:** Project Background & Problem Statement.
-* **Pages 3-6:** Data Source, Workflow & Model Training (Narrated by Sun).
-* **Pages 7-10:** Model Analysis & Results (Confusion Matrix, Metrics by Hyde).
-* **Pages 11-14:** Software Demo: Live Monitor, Dashboard, and Logs (Software logic by Sun).
-* **Pages 15-16:** Limitations and Future (Model limitations by Sun, Software limitations by Hyde).
+* **Pages 1-2:** Project Background & Problem Statement. (By Prapti)
+* **Pages 3-4:** Data Source, Model features (By Tasnia).
+* **Pages 5-10:** Flow Chart & Model Training & Results (By Hyde).
+* **Pages 11-14:** Software Demo: Live Monitor, Dashboard, and Logs (By Sun).
+* **Pages 15-16:** Limitations and Future (By Sun and Hyde).
 
 ### 2. `Group5_Prsentation_Speech Scripts` / `.pdf`
 The script used by the team during the presentation.
