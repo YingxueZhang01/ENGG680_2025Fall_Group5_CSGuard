@@ -1,0 +1,8 @@
+{
+  "name": "Construction Safety Guard",
+  "description": "AI-powered real-time construction safety monitoring system using Gemini Vision.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

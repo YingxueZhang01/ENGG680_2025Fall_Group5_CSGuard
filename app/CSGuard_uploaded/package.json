@@ -1,0 +1,53 @@
+{
+  "name": "construction-safety-guard",
+  "private": true,
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "electron:dev": "cross-env NODE_ENV=development electron .",
+    "electron:build": "vite build && electron-builder"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "lucide-react": "^0.554.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^34.0.0",
+    "electron-builder": "^25.1.8",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "build": {
+    "appId": "com.csguard.app",
+    "productName": "CSGuard Desktop",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources",
+        "to": "resources",
+        "filter": ["**/*"]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "public/vite.svg"
+    }
+  }
+}
