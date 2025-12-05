@@ -3,7 +3,7 @@
 This directory contains the source code for training, the final optimized weights, and comprehensive performance analysis charts.
 
 ## File Overview
-* **`notebook.ipynb`**: The Notebook used for training on **Google Colab** (using Tesla T4 GPU). It covers data preprocessing, YOLOv8n training, hyperparameter tuning and validation.
+* **`ENGG680_CSGuard_Group5.ipynb`**: The Notebook used for training on **Google Colab** (using Tesla T4 GPU). It covers data preprocessing, YOLOv8n training, hyperparameter tuning and validation.
 * **`best.pt`**: The final trained model weights, optimized for edge deployment. This file is loaded by the backend application for real-time inference.
 * **`confusion_matrix.png`**: Visual analysis of model performance across classes.
     * *Key Insight:* The model is highly accurate on standard PPE (Hardhats, Vests) but struggles slightly with "No-PPE" classes due to diverse negative features.
