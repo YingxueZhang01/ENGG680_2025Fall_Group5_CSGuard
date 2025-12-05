@@ -25,4 +25,4 @@ This project implements an edge-optimized YOLOv8 object detection model designed
 ## Repository Structure
 * `/models`: The original Google Colab `.ipynb` source code and results containing the trained `best.pt` weights and confusion matrix.
 * `/docs`: Presentation PPT and Speech scripts.
-* `/apps`: Application source code (Backend logic & Frontend assets) and Installers for CSGuard 1.0.0.
+* `/apps`: Application source code (Backend logic & Frontend assets).
