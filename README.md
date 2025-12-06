@@ -12,7 +12,7 @@ Vision-Based Real-Time Safety Gear Monitoring and Alert System for Construction 
 * Yingxue Zhang (Hyde)
 * Jingfeng Sun 
 * Tasnia Ibnat [UCID: 30293141]
-*
+* Urnisha Saha Prapti [UCID: 30292391]
 
 ## Development Timeline & Migration Note
 This repository contains the **final artifacts** of our project. The active development and training processes were conducted entirely within **Google Colab** and **Google Drive** due to the need for GPU resources (Tesla T4). 
