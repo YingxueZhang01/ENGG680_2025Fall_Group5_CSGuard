@@ -9,8 +9,8 @@ Vision-Based Real-Time Safety Gear Monitoring and Alert System for Construction 
 
 ## Vision-Based Real-Time Safety Gear Monitoring and Alert System for Construction Sites
 **Presented by Group 5:**
-* Yingxue Zhang (Hyde)
-* Jingfeng Sun 
+* Yingxue Zhang (Hyde) [UCID: 30297662]
+* Jingfeng Sun [UCID:30027544]
 * Tasnia Ibnat [UCID: 30293141]
 * Urnisha Saha Prapti [UCID: 30292391]
 
